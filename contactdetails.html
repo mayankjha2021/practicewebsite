@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h1>Enter Your Details Here</h1>
+    <form>  
+        <P>Your Name</P> <input type="text"><br><br>
+
+<!--we can use p tag and also label tag to name input for eg. given below-->
+<label for="">local address</label>
+<input type="text"><br><br>
+<label for="">Permanent address</label>
+<input type="text"><br><br>
+<label for="">Age</label>
+<input type="number"><br><br>
+<!--if we only put input button like <input>it will automatically take text as defauit-->
+<!--we have variety of type touse-->
+<label for="">Date of Birth</label>
+<input type="date"><br><br>
+<label for="">Email</label>
+<input type="email"><br>
+<label for="">Password</label>
+<input type="password"><br><br>
+<h3>Enter your t-shirt size</h3>
+<input name="t-shirt" type="radio">
+<label for="">Short</label><br>
+<input name="t-shirt" type="radio">
+<label for="">Medium</label><br>
+<input name="t-shirt" type="radio">
+<label for="">Large</label><br>
+<input name="t-shirt" type="radio">
+<label for="">XL</label><br>
+<input name="t-shirt" type="radio">
+<label for="">XXL</label><br>
+<!--we have use name before type in input because it will click in only one radio button but if we not use name then it will be clickable in all radio button-->
+<!--we have seen that we need to click radio button to click on number but if we want to click on nuber and radio number got clicked then 
+we have to use id in input tag and write the same in for of above tag-->
+<input id="XXXL" name="t-shirt" type="radio">
+<label for="XXXL">XXXL</label><br><br>
+ <label for="lahsun">Your Favourite color</label>
+ <input  id="lahsun"type="color"><br><br>
+
+<P>I am asking you a simple question not related to this form which team will won IPL2023</P><br>
+<label for="team">choose one team</label>
+<select >
+<option value="team">MI</option>
+<option value="team">CSK</option>
+<option value="team">GT</option><option value="team">LSG</option>
+</select><br><br>
+<label for="">Your valueable Feedback</label>
+<textarea></textarea><br><br>
+ <!--if found any error we can refill our form by clicking on reset tag-->
+ <label for="">If found error you can reset your form</label>
+ <input type="reset"><br>
+ <!--for submitting whole form-->
+<label for=""> Please submit your response</label>
+<input type="submit">
+<!--we can use value attribute in input for using in submit button-->
+    </form>
+    
+</body>
+</html>
